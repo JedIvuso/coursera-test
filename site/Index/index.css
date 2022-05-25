@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.row{
+    width: 100%;
+}
+
 @media (min-width: 992px){ 
 
     body{
@@ -57,9 +61,9 @@
         font-family: Arial, Helvetica, sans-serif;
         border: 1px solid black;
         padding: 0 0 5px 5px;
-        margin: 10px;
+        margin: 15px;
         background-color: darkgray;
-        width: 32%;
+        width: 30%;
         height: 30%;
         float: right;
     }   
@@ -127,7 +131,7 @@
         }
 
         .container3>section{
-            width: 96%;
+            width: 96.6%;
         }
     }
 
@@ -187,7 +191,6 @@
             padding: 0 0 5px 5px;
             margin: 10px;
             background-color: darkgray;
-            width: 50%;
             height: 30%;
             float: right;
         }
